@@ -1,0 +1,96 @@
+{
+  "users": [
+    {
+      "_id": "admin-default-id",
+      "name": "System Admin",
+      "email": "admin@volunteer.com",
+      "password": "$2a$10$v.pde8S3/KjvKb07u6wnKOfcDmH2XfwBUW/5sfihxTxkQt69eR2uG",
+      "role": "admin",
+      "skills": [
+        "Management",
+        "Leadership"
+      ],
+      "availability": [
+        "weekdays",
+        "weekends"
+      ],
+      "status": "approved",
+      "registeredEvents": [],
+      "bio": "Default administrator account.",
+      "hoursLogged": 0,
+      "createdAt": "2026-06-20T16:13:13.891Z"
+    },
+    {
+      "_id": "user_veikbi1tt",
+      "name": "Test Runner",
+      "email": "vol_test_vuacp@example.com",
+      "password": "$2a$10$d3tQsrI4YEprocYs8emOceIo0yObp01Nncs9w/X/OrUtlOSUJp2/O",
+      "role": "volunteer",
+      "skills": [
+        "Technical Support",
+        "Communication"
+      ],
+      "availability": [
+        "weekends"
+      ],
+      "status": "pending",
+      "registeredEvents": [],
+      "bio": "Automated test profile.",
+      "hoursLogged": 0,
+      "createdAt": "2026-06-20T16:41:44.348Z"
+    },
+    {
+      "_id": "user_1jh4prm1e",
+      "name": "Test Runner",
+      "email": "vol_test_xa2ed@example.com",
+      "password": "$2a$10$8y0zcUrxFII9znYa7OlZaef4dBzXbiZQiq58KGfwtXDhhnx8CXAh2",
+      "role": "volunteer",
+      "skills": [
+        "Technical Support",
+        "Communication"
+      ],
+      "availability": [
+        "weekends"
+      ],
+      "status": "approved",
+      "registeredEvents": [],
+      "bio": "Automated test profile.",
+      "hoursLogged": 4.5,
+      "createdAt": "2026-06-21T01:41:26.169Z"
+    }
+  ],
+  "events": [
+    {
+      "_id": "event-1",
+      "title": "Community Food Drive",
+      "description": "Help organize, sort, and distribute food items to families in need within the local community.",
+      "date": "2026-07-10",
+      "location": "Downtown Civic Center",
+      "skillsRequired": [
+        "Organization",
+        "Logistics",
+        "Food Service"
+      ],
+      "slots": 15,
+      "registeredVolunteers": [],
+      "status": "upcoming",
+      "createdAt": "2026-06-20T16:13:13.891Z"
+    },
+    {
+      "_id": "event-2",
+      "title": "Tech Support for Seniors",
+      "description": "Assist elderly community members with smartphones, laptops, and accessing online government/health portals.",
+      "date": "2026-07-18",
+      "location": "Greenwood Retirement Village",
+      "skillsRequired": [
+        "Technical Support",
+        "Communication",
+        "Teaching"
+      ],
+      "slots": 8,
+      "registeredVolunteers": [],
+      "status": "upcoming",
+      "createdAt": "2026-06-20T16:13:13.891Z"
+    }
+  ]
+}
