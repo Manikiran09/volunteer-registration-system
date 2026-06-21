@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Award, Calendar, CheckSquare, Settings, Info, MapPin, Clock, ExternalLink, X } from 'lucide-react';
+import { Award, Calendar, CheckSquare, Settings, Info, MapPin, Clock, ExternalLink, X, Users } from 'lucide-react';
 
 export default function VolunteerDashboard({ user, token, API_URL, onProfileUpdate }) {
   const [events, setEvents] = useState([]);

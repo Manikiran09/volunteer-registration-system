@@ -5,7 +5,7 @@ import Auth from './pages/Auth';
 import VolunteerDashboard from './pages/VolunteerDashboard';
 import AdminDashboard from './pages/AdminDashboard';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = '/api';
 
 export default function App() {
   const [token, setToken] = useState(localStorage.getItem('token') || null);
