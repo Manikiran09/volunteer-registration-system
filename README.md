@@ -26,7 +26,7 @@ Built with React (Vite) on the frontend and Node.js + Express on the backend. Us
 ### 1. Clone the repo
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Manikiran09/volunteer-registration-system
 cd volunteer-registration-system
 ```
 
@@ -40,13 +40,15 @@ npm start
 
 Server runs on `http://localhost:5000` by default.
 
-If you want to use MongoDB, add your connection string to `.env`:
+add mongodb uri here to connect for local database
 
 ```
 MONGODB_URI=your_mongodb_uri_here
 ```
-
-If you leave it blank, the app will just use a local `local_db.json` file instead — no setup needed.
+if you don't have mongodb local click here to download from official website.
+```
+https://www.mongodb.com/try/download/community
+```
 
 ### 3. Frontend setup
 
@@ -67,37 +69,3 @@ Email: admin@volunteer.com
 Password: admin123
 ```
 
-## Project Structure
-
-```
-volunteer-registration-system/
-├── client/          # React frontend
-│   └── src/
-│       ├── pages/       # Home, Auth, VolunteerDashboard, AdminDashboard
-│       └── components/  # Navbar etc.
-└── server/          # Express backend
-    ├── routes/      # auth, events, volunteers, reports
-    ├── middleware/  # JWT auth middleware
-    └── db.js        # MongoDB models + JSON fallback
-```
-
-## API Overview
-
-| Method | Endpoint | Access | Description |
-|--------|----------|--------|-------------|
-| POST | /api/auth/register | Public | Register a new volunteer |
-| POST | /api/auth/login | Public | Login, returns JWT |
-| GET | /api/auth/me | Private | Get logged-in user's profile |
-| GET | /api/events | Private | List all events |
-| POST | /api/events | Admin | Create an event |
-| GET | /api/volunteers | Admin | List all volunteers |
-| PUT | /api/volunteers/:id | Admin | Approve/reject a volunteer |
-| GET | /api/reports/volunteers | Admin | Download volunteer CSV |
-
-## Notes
-
-This was built as a mini project, so it's kept fairly simple — no email notifications, no payments, no pagination. Possible next steps if I keep working on it: tests, file uploads for profile pictures, deployment.
-
-## License
-
-MIT
