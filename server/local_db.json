@@ -33,7 +33,7 @@
       "availability": [
         "weekends"
       ],
-      "status": "approved",
+      "status": "rejected",
       "registeredEvents": [],
       "bio": "Automated test profile.",
       "hoursLogged": 0,
@@ -52,7 +52,7 @@
       "availability": [
         "weekends"
       ],
-      "status": "approved",
+      "status": "rejected",
       "registeredEvents": [],
       "bio": "Automated test profile.",
       "hoursLogged": 4.5,
@@ -76,6 +76,25 @@
       "bio": "Automated test profile.",
       "hoursLogged": 4.5,
       "createdAt": "2026-06-21T16:17:39.019Z"
+    },
+    {
+      "_id": "user_kakrsfk05",
+      "name": "Test Runner",
+      "email": "vol_test_sur56@example.com",
+      "password": "$2a$10$q9A.srYmzvYOlAT6zUqs1ObD9KHRiWB98Q1XoJMfdtgDO9gU1K7Cu",
+      "role": "volunteer",
+      "skills": [
+        "Technical Support",
+        "Communication"
+      ],
+      "availability": [
+        "weekends"
+      ],
+      "status": "approved",
+      "registeredEvents": [],
+      "bio": "Automated test profile.",
+      "hoursLogged": 4.5,
+      "createdAt": "2026-06-22T12:53:46.176Z"
     }
   ],
   "events": [

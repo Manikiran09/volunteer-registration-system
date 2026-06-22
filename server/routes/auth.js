@@ -9,7 +9,7 @@ const JWT_SECRET = process.env.JWT_SECRET || 'super_secret_volunteer_token_key_1
 
 // Helper to sign JWT token
 const generateToken = (id) => {
-  return jwt.sign({ id }, JWT_SECRET, { expiresIn: '30d' });
+  return jwt.sign({ id }, JWT_SECRET, { expiresIn: '90d' });
 };
 
 // @route   POST /api/auth/register
